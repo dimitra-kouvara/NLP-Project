@@ -13,7 +13,9 @@ Download trumptweets.csv file and save to the same directory as NLP_project.py
    change 0 and 1 accordingly (lines 56-70)
    For LDA model
    gensim_lda_clean = 1
+   
    gensim_lda_model = 1
+   
    gensim_lda_tuning = 0
 
    Note: it is suggested not to activate gensim_lda_tuning as its 
@@ -21,5 +23,7 @@ Download trumptweets.csv file and save to the same directory as NLP_project.py
 
    For kmeans
    kmeans_clean = 0
+   
    kmeans_model = 0
+   
    kmeans_tuning = 0
