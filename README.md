@@ -11,7 +11,8 @@ Download trumptweets.csv file and save to the same directory as NLP_project.py
 2. the code is set to run in whole
    In case you want to execute LDA model and kmeans seperately,
    change 0 and 1 accordingly (lines 56-70)
-   For LDA model
+   For LDA model:
+   
    gensim_lda_clean = 1
    
    gensim_lda_model = 1
@@ -21,7 +22,8 @@ Download trumptweets.csv file and save to the same directory as NLP_project.py
    Note: it is suggested not to activate gensim_lda_tuning as its 
    execution time is rather long.
 
-   For kmeans
+   For kmeans:
+   
    kmeans_clean = 0
    
    kmeans_model = 0
